@@ -31,3 +31,21 @@ let population = 340.1;
 const isIsland = false;
 const language = "English";
 // isIsland = true;
+
+
+// Basic Operators
+
+const halfPopulation = population / 2;
+console.log(halfPopulation);
+
+population += 1;
+console.log(population);
+
+const populationFinland = 6;
+console.log(population > populationFinland);
+
+const averagePopulation = 33;
+console.log(population < averagePopulation);
+
+const description = country + " is in " + continent + ", and its " + population + " million people speak " + language
+console.log(description);
