@@ -54,7 +54,15 @@ const newDescription = `${country} is in ${continent}, and its ${population} mil
 
 // Taking Decisions: if/else Statements
 if (population > averagePopulation) {
-    console.log(`${country}'s population is ${population - averagePopulation} above average.`);
+    // console.log(`${country}'s population is ${population - averagePopulation} above average.`);
 } else {
-    console.log(`${country}'s population is ${averagePopulation - population} below average.`);
+    // console.log(`${country}'s population is ${averagePopulation - population} below average.`);
 }
+
+
+// Type Conversion and Coercion
+console.log("9" - "5"); // 4
+console.log("19" - "13" + "17"); // "617"
+console.log("19" - "13" + 17); // 23
+console.log("123" < 57); // false
+console.log(5 + 6 + "4" + 9 - 4 - 2); // 1143
