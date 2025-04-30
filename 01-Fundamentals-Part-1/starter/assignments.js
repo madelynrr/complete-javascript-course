@@ -36,16 +36,22 @@ const language = "English";
 // Basic Operators
 
 const halfPopulation = population / 2;
-console.log(halfPopulation);
+// console.log(halfPopulation);
 
 population += 1;
-console.log(population);
+// console.log(population);
 
 const populationFinland = 6;
-console.log(population > populationFinland);
+// console.log(population > populationFinland);
 
 const averagePopulation = 33;
-console.log(population < averagePopulation);
+// console.log(population < averagePopulation);
 
 const description = country + " is in " + continent + ", and its " + population + " million people speak " + language
 console.log(description);
+
+
+// Strings and Template Literals
+
+const newDescription = `${country} is in ${continent}, and its ${population} million people speak ${language}`
+console.log(newDescription);
