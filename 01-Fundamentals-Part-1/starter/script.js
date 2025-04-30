@@ -148,5 +148,29 @@ if (height) {
 
 
 
-
+/*
 // Equality Operators
+const age = 18;
+if (age === 18) {
+    console.log("You just became an adult (strict)");
+}
+
+if (age == 18) {
+    console.log("You just became an adult (loose)");
+}
+
+const favorite = Number(prompt("What's your favorite number?"));
+console.log(typeof (favorite), favorite);
+
+if (favorite === 13) {
+    console.log("Cool, 13 is a great number");
+} else if (favorite === 7) {
+    console.log("7 is also a cool number");
+} else {
+    console.log("Number is not 13 or 7");
+}
+
+if (favorite !== 13) {
+    console.log("Why not 13??");
+}
+*/
