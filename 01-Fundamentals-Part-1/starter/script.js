@@ -174,3 +174,18 @@ if (favorite !== 13) {
     console.log("Why not 13??");
 }
 */
+
+
+
+/*
+// Boolean Logic
+const age = 16;
+const a = age >= 20;
+const b = age < 30;
+
+console.log(!a);
+console.log(a && b);
+console.log(a || b);
+console.log(!a && b);
+console.log(a || !b);
+*/
