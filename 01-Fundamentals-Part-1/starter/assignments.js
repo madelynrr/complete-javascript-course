@@ -84,3 +84,18 @@
 // } else {
 //     console.log("No borders");
 // }
+
+
+
+// // Logical Operators
+// const country = "United States of America";
+// const continent = "North America";
+// let population = 34;
+// const isIsland = false;
+// const language = "English";
+
+// if (language === "English" && population < 50 && !isIsland) {
+//     console.log(`Sarah can live in ${country}!`);
+// } else {
+//     console.log(`${country} does not meet Sarah's criteria`);
+// }
