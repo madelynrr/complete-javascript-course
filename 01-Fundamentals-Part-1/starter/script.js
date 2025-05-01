@@ -189,3 +189,31 @@ console.log(a || b);
 console.log(!a && b);
 console.log(a || !b);
 */
+
+
+
+/*
+// Logical Operators
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+if (shouldDrive) {
+    console.log("Sarah can drive");
+} else {
+    console.log("Someone else should drive");
+}
+
+const isTired = false;
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Sarah can drive");
+} else {
+    console.log("Someone else");
+}
+*/
