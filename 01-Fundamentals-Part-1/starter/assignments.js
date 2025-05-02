@@ -90,7 +90,7 @@
 // // Logical Operators
 // const country = "United States of America";
 // const continent = "North America";
-// let population = 34;
+// let population = 340.1;
 // const isIsland = false;
 // const language = "English";
 
@@ -124,3 +124,12 @@
 //     default:
 //         console.log("Great language too");
 // }
+
+
+
+// // The Conditional (Ternary) Operator
+// const country = "United States of America";
+// const averagePopulation = 33;
+// let population = 340.1;
+
+// console.log(`${country}'s population is ${population > averagePopulation ? "above" : "below"} average`);
