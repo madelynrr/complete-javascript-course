@@ -45,14 +45,28 @@
 
 
 
-// Arrow Functions
-const percentageOfWorld3 = population => (population / 7900) * 100;
+// // Arrow Functions
+// const percentageOfWorld3 = population => (population / 7900) * 100;
 
-const percentageChina3 = percentageOfWorld3(1441);
-console.log(percentageChina3);
+// const percentageChina3 = percentageOfWorld3(1441);
+// console.log(percentageChina3);
 
-const percentageUnitedStates3 = percentageOfWorld3(340.1);
-console.log(percentageUnitedStates3);
+// const percentageUnitedStates3 = percentageOfWorld3(340.1);
+// console.log(percentageUnitedStates3);
 
-const percentageIceland3 = percentageOfWorld3(.39);
-console.log(percentageIceland3);
+// const percentageIceland3 = percentageOfWorld3(.39);
+// console.log(percentageIceland3);
+
+
+
+// Functions Calling Other Functions
+const percentageOfWorldPopulation = population => (population / 7900) * 100;
+
+function describePopulation(country, population) {
+    const percentagePopulation = percentageOfWorldPopulation(population);
+    return `${country} has ${population} people, which is about ${percentagePopulation}% of the world.`;
+}
+
+console.log(describePopulation("United States", 340.1));
+console.log(describePopulation("Iceland", .39));
+console.log(describePopulation("Scotland", 5.4));
