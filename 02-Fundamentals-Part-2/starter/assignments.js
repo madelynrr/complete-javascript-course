@@ -106,3 +106,15 @@
 // console.log(neighbors);
 // neighbors[indexCanada] = "Canadia";
 // console.log(neighbors);
+
+
+
+// // Introduction to Objects
+// const myCountry = {
+//     country: "United States of America",
+//     capital: "Washington DC",
+//     language: "English",
+//     population: 340.1,
+//     neighbors: ["Mexico", "Canada"]
+// }
+// console.log(myCountry);
