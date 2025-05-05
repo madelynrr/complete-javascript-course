@@ -70,3 +70,18 @@
 // console.log(describePopulation("United States", 340.1));
 // console.log(describePopulation("Iceland", .39));
 // console.log(describePopulation("Scotland", 5.4));
+
+
+
+// // Introduction to Arrays
+// const percentageOfWorldPopulation = population => (population / 7900) * 100;
+
+// const populations = [340.1, .39, 5.4, 5.3];
+// // if (populations.length === 4) {
+// //     console.log("Has four elements");
+// // }
+// console.log(populations.length === 4);
+
+
+// const percentages = [percentageOfWorldPopulation(populations[0]), percentageOfWorldPopulation(populations[1]), percentageOfWorldPopulation(populations[2]), percentageOfWorldPopulation(populations[3])];
+// console.log(percentages);
