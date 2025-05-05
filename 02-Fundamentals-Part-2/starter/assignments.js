@@ -85,3 +85,24 @@
 
 // const percentages = [percentageOfWorldPopulation(populations[0]), percentageOfWorldPopulation(populations[1]), percentageOfWorldPopulation(populations[2]), percentageOfWorldPopulation(populations[3])];
 // console.log(percentages);
+
+
+
+// // Basic Array Operations (Methods)
+// const neighbors = ["Mexico", "Canada"];
+// console.log(neighbors);
+
+// neighbors.push("Utopia");
+// console.log(neighbors);
+
+// neighbors.pop();
+// console.log(neighbors);
+
+// if (!neighbors.includes("Germany")) {
+//     console.log("Probably not a Central European country");
+// }
+
+// const indexCanada = neighbors.indexOf("Canada");
+// console.log(neighbors);
+// neighbors[indexCanada] = "Canadia";
+// console.log(neighbors);
