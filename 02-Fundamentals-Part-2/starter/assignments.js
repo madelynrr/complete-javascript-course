@@ -118,3 +118,23 @@
 //     neighbors: ["Mexico", "Canada"]
 // }
 // console.log(myCountry);
+
+
+
+// // Dot vs Bracket Notation
+// const myCountry = {
+//     country: "United States of America",
+//     capital: "Washington DC",
+//     language: "English",
+//     population: 340.1,
+//     neighbors: ["Mexico", "Canada"]
+// }
+
+// console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}-speaking people, ${myCountry.neighbors.length} neighboring countries, and a capital called ${myCountry.capital}`);
+
+// console.log(myCountry.population);
+// myCountry.population += 2;
+// console.log(myCountry.population);
+
+// myCountry["population"] -= 2;
+// console.log(myCountry["population"]);
