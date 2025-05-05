@@ -171,3 +171,42 @@ console.log(age1, age2, age3);
 const ages = [calcAge(birthYears[0]), calcAge(birthYears[1]), calcAge(birthYears[birthYears.length - 1])];
 console.log(ages);
 */
+
+
+
+/*
+// Basic Array Operations (Methods)
+const friends = ["Michael", "Steven", "Peter"];
+console.log(friends);
+
+const newLength = friends.push("Jay");
+console.log(newLength);
+console.log(friends);
+
+friends.unshift("John");
+console.log(friends);
+
+const popped = friends.pop();
+console.log(popped);
+friends.pop();
+console.log(friends);
+
+const shifted = friends.shift();
+console.log(shifted);
+console.log(friends);
+
+console.log(friends.indexOf("Steven"));
+console.log(friends.indexOf("Bob"));
+
+friends.push(23)
+console.log(friends.includes("Steven"));
+console.log(friends.includes("Bob"));
+console.log(friends.includes("23"));
+console.log(friends.includes(23));
+
+if (friends.includes("Peter")) {
+    console.log("You have a friend called Peter");
+} else if (friends.includes("Steven")) {
+    console.log("You have a friend called Steven");
+}
+*/
