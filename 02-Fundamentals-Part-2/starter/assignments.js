@@ -59,14 +59,14 @@
 
 
 
-// Functions Calling Other Functions
-const percentageOfWorldPopulation = population => (population / 7900) * 100;
+// // Functions Calling Other Functions
+// const percentageOfWorldPopulation = population => (population / 7900) * 100;
 
-function describePopulation(country, population) {
-    const percentagePopulation = percentageOfWorldPopulation(population);
-    return `${country} has ${population} people, which is about ${percentagePopulation}% of the world.`;
-}
+// function describePopulation(country, population) {
+//     const percentagePopulation = percentageOfWorldPopulation(population);
+//     return `${country} has ${population} people, which is about ${percentagePopulation}% of the world.`;
+// }
 
-console.log(describePopulation("United States", 340.1));
-console.log(describePopulation("Iceland", .39));
-console.log(describePopulation("Scotland", 5.4));
+// console.log(describePopulation("United States", 340.1));
+// console.log(describePopulation("Iceland", .39));
+// console.log(describePopulation("Scotland", 5.4));
