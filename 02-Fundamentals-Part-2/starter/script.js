@@ -210,3 +210,17 @@ if (friends.includes("Peter")) {
     console.log("You have a friend called Steven");
 }
 */
+
+
+
+/*
+// Introduction to Objects
+const madelyn = {
+    firstName: "Madelyn",
+    lastName: "Romero",
+    age: 2037 - 1991,
+    job: "software engineer",
+    friends: ["Michael", "Peter", "Steven"]
+};
+console.log(madelyn);
+*/
