@@ -224,3 +224,41 @@ const madelyn = {
 };
 console.log(madelyn);
 */
+
+
+
+/*
+// Dot vs Bracket Notation
+const madelyn = {
+    firstName: "Madelyn",
+    lastName: "Romero",
+    age: 2037 - 1991,
+    job: "Software Engineer",
+    friends: ["Michael", "Steven", "Peter"]
+};
+
+console.log(madelyn);
+console.log(madelyn.firstName);
+console.log(madelyn["firstName"]);
+
+const nameKey = "Name"
+
+console.log(madelyn["first" + nameKey]);
+console.log(madelyn["last" + nameKey]);
+
+// const interestedIn = prompt("What do you want to know about Madelyn? Choose between firstName, lastName, age, job, friends.");
+// console.log(madelyn.interestedIn);
+// console.log(madelyn[interestedIn]);
+
+// if ((madelyn[interestedIn])) {
+//     console.log(madelyn[interestedIn]);
+// } else {
+//     console.log("Wrong request");
+// }
+
+madelyn.location = "Colorado";
+madelyn["city"] = "Longmont";
+console.log(madelyn);
+
+console.log(`${madelyn.firstName} has ${madelyn.friends.length} friends and her best friend is ${madelyn.friends[0]}`);
+*/
