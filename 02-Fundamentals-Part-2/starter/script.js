@@ -262,3 +262,45 @@ console.log(madelyn);
 
 console.log(`${madelyn.firstName} has ${madelyn.friends.length} friends and her best friend is ${madelyn.friends[0]}`);
 */
+
+
+
+/*
+// Object Methods
+const madelyn = {
+    firstName: "Madelyn",
+    lastName: "Romero",
+    birthYear: 1991,
+    job: "Software Engineer",
+    friends: ["Michael", "Peter", "Steven"],
+    hasDriversLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2037 - birthYear;
+    // }
+
+    // calcAge: function () {
+    //     // console.log(this);
+
+    //     return 2037 - this.birthYear
+    // }
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and she has ${this.hasDriversLicense ? "a" : "no"} driver's license`
+    }
+};
+
+console.log(madelyn.calcAge());
+console.log(madelyn.age);
+console.log(madelyn.age);
+
+// console.log(madelyn.calcAge(1991));
+// console.log(madelyn["calcAge"](1991));
+
+console.log(madelyn.getSummary());
+*/
