@@ -138,3 +138,27 @@
 
 // myCountry["population"] -= 2;
 // console.log(myCountry["population"]);
+
+
+
+// // Object Methods
+// const myCountry = {
+//     country: "United States of America",
+//     capital: "Washington DC",
+//     language: "English",
+//     population: 340.1,
+//     neighbors: ["Mexico", "Canada"],
+
+//     describe: function () {
+//         console.log(`${this.country} has ${this.population} million ${this.language}-speaking people, ${this.neighbors.length} neighboring countries, and a capital called ${this.capital}`);
+//     },
+
+//     checkIsland: function () {
+//         this.isIsland = this.neighbors.length === 0 ? true : false;
+//         return this.isIsland;
+//     }
+// }
+
+// myCountry.describe();
+// console.log(myCountry.checkIsland());
+// console.log(myCountry);
