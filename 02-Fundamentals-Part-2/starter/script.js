@@ -352,3 +352,22 @@ for (let i = 0; i < jonasArray.length; i++) {
     console.log(jonasArray[i], typeof jonasArray[i]);
 }
 */
+
+
+
+/*
+// Looping Backwards and Loops in Loops
+const jonasArray = ["Madelyn", "Romero", 2037 - 1991, "Software Engineer", ["Michael", "Peter", "Steven"], true];
+
+for (let i = jonasArray.length - 1; i >= 0; i--) {
+    console.log(jonasArray[i]);
+}
+
+for (let exercise = 1; exercise <= 3; exercise++) {
+    console.log(`----- STARTING EXERCISE ${exercise} -----`);
+
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Exercise ${exercise}: Lifting weights repetition ${rep}`);
+    }
+}
+*/
