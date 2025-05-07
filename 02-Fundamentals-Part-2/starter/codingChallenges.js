@@ -71,3 +71,38 @@
 // } else if (john.bmi > mark.bmi) {
 //     console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s (${mark.bmi})`);
 // }
+
+
+
+// // Coding Challenge #4
+// const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+// const tips = [];
+// const totals = [];
+
+// const calcTip = (bill) => bill >= 50 && bill <= 300 ? bill * .15 : bill * .2;
+
+// for (let i = 0; i < bills.length; i++) {
+//     const tip = calcTip(bills[i]);
+
+//     tips.push(tip);
+//     totals.push(bills[i] + tip);
+// }
+
+// console.log(bills);
+// console.log(tips);
+// console.log(totals);
+
+// const calcAverage = function (arr) {
+//     let total = 0;
+
+//     for (i = 0; i < arr.length; i++) {
+//         total += arr[i];
+//     }
+//     return total / arr.length;
+// }
+
+// const test = [1, 2, 3];
+// console.log(calcAverage(test));
+
+// console.log(calcAverage(tips));
+// console.log(calcAverage(totals));
