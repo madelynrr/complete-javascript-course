@@ -201,3 +201,19 @@
 //         console.log(`Neighbor: ${listOfNeighbors[neighbors][country]}`);
 //     }
 // }
+
+
+
+// // The While Loop
+// const percentageOfWorldPopulation = population => (population / 7900) * 100;
+
+// const populations = [340.1, .39, 5.4, 5.3];
+// const percentages3 = [];
+
+// let i = 0;
+// while (i < populations.length) {
+//     percentages3.push(percentageOfWorldPopulation(populations[i]));
+//     i++;
+// }
+
+// console.log(percentages3);
