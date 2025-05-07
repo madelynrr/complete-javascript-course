@@ -1,3 +1,4 @@
+"use strict";
 // JavaScript Fundamentals 2
 
 // // Functions
