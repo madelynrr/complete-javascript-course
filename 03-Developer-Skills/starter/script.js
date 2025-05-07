@@ -28,3 +28,42 @@ const calcTempAmplitude = function (temps1, temps2) {
 
 console.log(calcTempAmplitude([3, 5, 1], [9, 0, 5]));
 */
+//
+//
+//
+/*
+// Deubugging with the Console and Breakpoints
+// const measureKelvin = function () {
+//   const measurement = {
+//     type: "temp",
+//     unit: "celsius",
+//     value: Number(prompt("Degrees celsius:")),
+//   };
+
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// };
+// console.log(measureKelvin());
+
+const calcTempAmplitudeBug = function (temps1, temps2) {
+  //   const max = Math.max(...temps);
+  //   const min = Math.min(...temps);
+
+  const temps = temps1.concat(temps2);
+  console.log(temps);
+
+  let max = 0;
+  let min = 0;
+  for (let i = 0; i < temps.length; i++) {
+    const currentTemp = temps[i];
+    if (typeof currentTemp !== "number") continue;
+
+    if (currentTemp > max) max = currentTemp;
+    if (currentTemp < min) min = currentTemp;
+  }
+  console.log(max, min);
+  return max - min;
+};
+
+console.log(calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]));
+*/
