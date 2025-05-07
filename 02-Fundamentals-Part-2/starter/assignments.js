@@ -169,3 +169,24 @@
 // for (let rep = 1; rep <= 50; rep++) {
 //     console.log(`Voter number ${rep} is currently voting`);
 // }
+
+
+
+// // Looping Arrays, Breaking, and Continuing
+// const percentageOfWorldPopulation = population => (population / 7900) * 100;
+
+// const populations = [340.1, .39, 5.4, 5.3];
+// const percentages2 = [];
+
+
+// for (let i = 0; i < populations.length; i++) {
+//     percentages2.push(percentageOfWorldPopulation(populations[i]))
+// }
+
+// const percentages = [percentageOfWorldPopulation(populations[0]), percentageOfWorldPopulation(populations[1]), percentageOfWorldPopulation(populations[2]), percentageOfWorldPopulation(populations[3])];
+// console.log(percentages);
+// console.log(percentages2);
+
+// for (let i = 0; i < percentages2.length; i++) {
+//     console.log(percentages[i] === percentages2[i]);
+// }
