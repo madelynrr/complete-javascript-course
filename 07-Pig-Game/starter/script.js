@@ -13,3 +13,29 @@ const current1Element = document.getElementById("current--1");
 const btnNew = document.querySelector(".btn--new");
 const btnRoll = document.querySelector(".btn--roll");
 const btnHold = document.querySelector(".btn--hold");
+
+let playing;
+let scores;
+let activePlayer;
+let currentScore;
+
+const init = function () {
+  playing = true;
+  scores = [0, 0];
+  activePlayer = 0;
+  currentScore = 0;
+
+  score0Element.textContent = 0;
+  score1Element.textContent = 0;
+
+  current0Element.textContent = 0;
+  current1Element.textContent = 0;
+
+  diceElement.classList.add("hidden");
+  player0Element.classList.remove("player--winner");
+  player1Element.classList.remove("player--winner");
+
+  player0Element.classList.add("player--active");
+};
+
+init();
