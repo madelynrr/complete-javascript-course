@@ -1,5 +1,6 @@
 "use strict";
 
+/*
 // Scoping in Practice
 
 function calcAge(birthYear) {
@@ -34,3 +35,26 @@ function calcAge(birthYear) {
 
 const firstName = "Madelyn";
 calcAge(1991);
+*/
+//
+//
+//
+/*
+// Variable Environment: Hoisting and the TDZ
+
+console.log(testing);
+var testing = "testing";
+console.log(testing);
+
+const myName = "Madelyn";
+
+if (myName === "Madelyn") {
+  console.log(`Jonas is a ${job}`);
+  const job = "teacher";
+
+  const age = 2037 - 1991;
+  console.log(age);
+
+  console.log(x);
+}
+*/
