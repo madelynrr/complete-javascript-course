@@ -148,3 +148,57 @@ matilda.calcAge();
 const f = jonas.calcAge;
 f();
 */
+//
+//
+//
+/*
+// Regular Functions vs. Arrow Functions
+
+var firstName = "Matilda";
+
+const jonas = {
+  firstName: "Jonas",
+  year: 1991,
+  calcAge: function () {
+    console.log(this);
+    console.log(2037 - this.year);
+
+    // const self = this;
+    // const isMillenial = function () {
+    //   console.log("self", self);
+    //   console.log(self.year >= 1981 && self.year <= 1996);
+    //   console.log(this.year >= 1981 && this.year <= 1996);
+    // };
+    // isMillenial();
+
+    const isMillenial = () => {
+      console.log("this", this);
+      console.log(this.year >= 1981 && this.year <= 1996);
+    };
+    isMillenial();
+  },
+
+  greetArrow: () => console.log(`Hey, ${this.firstName}`),
+
+  greetExpression: function () {
+    console.log(`Hey, ${this.firstName}`);
+  },
+};
+
+jonas.greetArrow();
+jonas.greetExpression();
+
+jonas.calcAge();
+
+const addExpression = function (a, b) {
+  console.log(arguments);
+  return a + b;
+};
+addExpression(2, 3);
+
+const addArrow = (a, b) => {
+  console.log(arguments);
+  return a + b;
+};
+addArrow(3, 4);
+*/
