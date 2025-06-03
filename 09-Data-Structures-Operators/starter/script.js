@@ -64,6 +64,11 @@ const restaurant = {
       `Here is your delicious pasta with ${ing1} ${ing2}, and ${ing3}`
     );
   },
+
+  orderPizza: function (mainIngredient, ...otherIngredients) {
+    console.log(mainIngredient);
+    console.log(otherIngredients);
+  },
 };
 /*
 // Destructuring Arrays
@@ -162,7 +167,7 @@ restaurant.orderDelivery({
 //
 //
 //
-
+/*
 // The Spread Operator
 
 const arr = [7, 8, 9];
@@ -199,3 +204,77 @@ const restaurantCopy = { ...restaurant };
 restaurantCopy.categories = [...restaurantCopy.categories, "Testing"];
 console.log(restaurant.categories);
 console.log(restaurantCopy.categories);
+*/
+//
+//
+//
+/*
+// Rest Pattern and Parameters
+
+// Destructuring
+const arr = [1, 2, ...[3, 4]];
+
+const [a, b, ...others] = [1, 2, 3, 4, 5];
+console.log(a, b, others);
+
+const [pizza, , risotto, ...otherFood] = [
+  ...restaurant.mainMenu,
+  ...restaurant.starterMenu,
+];
+console.log(pizza, risotto, otherFood);
+
+const { sat, ...weekdays } = restaurant.openingHours;
+console.log(sat, weekdays);
+
+// Functions
+const add = function (...numbers) {
+  let sum = 0;
+  numbers.forEach((number) => (sum += number));
+  console.log(numbers, sum);
+  return sum;
+};
+
+add(2, 3);
+add(5, 3, 7, 2);
+add(2, 4, 6, 7, 8);
+
+const x = [23, 5, 7];
+add(...x);
+
+restaurant.orderPizza("mushrooms", "onion", "olives", "spinach");
+restaurant.orderPizza("mushrooms");
+*/
+//
+//
+//
+
+// Short Circuiting (&& and ||)
+
+console.log("----- || -----");
+console.log(3 || "Jonas");
+console.log("" || "Jonas");
+console.log(true || 0);
+console.log(undefined || null);
+
+console.log(undefined || 0 || "" || "Hello" || 23 || null);
+
+restaurant.numGuests = 23;
+restaurant.numGuests = 0;
+const guests1 = restaurant.numGuests ? restaurant.numGuests : 10;
+console.log(guests1);
+
+const guests2 = restaurant.numGuests || 10;
+console.log(guests1);
+
+console.log("----- && -----");
+console.log(0 && "Jonas");
+console.log(7 && "Jonas");
+
+console.log("Hello" && 23 && null && "Jonas");
+
+if (restaurant.orderPizza) {
+  restaurant.orderPizza("mushrooms", "spinach");
+}
+
+restaurant.orderPizza && restaurant.orderPizza("mushrooms", "spinach");
+restaurant.orderPizzas && restaurant.orderPizza("mushrooms", "spinach");
