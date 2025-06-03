@@ -247,7 +247,7 @@ console.log(threeStarRatings);
 //
 //
 //
-
+/*
 // Destructuring Objects
 const [firstBook] = books;
 // const { title, author, ISBN } = firstBook;
@@ -280,3 +280,16 @@ printBookInfo({
   author: "Robert Sedgewick",
   year: 2011,
 });
+*/
+//
+//
+//
+
+// The Spread Operator
+const bookAuthors = [...books[0].author, ...books[1].author];
+console.log(bookAuthors);
+
+function spellWord(str) {
+  console.log(...str);
+}
+spellWord("Testing");
