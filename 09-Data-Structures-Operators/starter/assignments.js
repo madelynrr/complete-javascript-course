@@ -297,7 +297,7 @@ spellWord("Testing");
 //
 //
 //
-
+/*
 // Rest Pattern and Parameters
 const [mainKeyword, ...rest] = books[0].keywords;
 console.log(mainKeyword);
@@ -312,3 +312,19 @@ function printBookAuthorsCount(title, ...authors) {
 }
 
 printBookAuthorsCount("Algorithms", "Robert Sedgewick", "Kevin Wayne");
+*/
+//
+//
+//
+
+// Short Circuiting (&& and ||)
+function hasExamplesInJava(book) {
+  return book.programmingLanguage === "Java" || "no data available";
+}
+
+console.log(books[0].programmingLanguage);
+console.log(hasExamplesInJava(books[0]));
+
+books.forEach((book) => {
+  book.onlineContent && console.log(`${book.title} provides online content`);
+});
